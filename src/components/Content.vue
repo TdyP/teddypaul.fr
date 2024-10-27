@@ -1,3 +1,0 @@
-<template>
-    Mon contenu
-</template>
