@@ -1,0 +1,3 @@
+<template>
+    Mon contenu
+</template>
