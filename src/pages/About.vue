@@ -35,12 +35,8 @@ const skills = [
     <section>
         <h2>Qui suis-je?</h2>
         <p>Développeur Web Full Stack avec 15 ans d'expérience, passionné par la création de solutions digitales
-            robustes et évolutives.</p>
-        <p class="mt-2">J'accorde une grande importance à la qualité du code et à la maintenabilité des
-            applications en suivant les principes du Software Craftsmanship. </p>
-        <p class="mt-2">Mon objectif est de mettre mon
-            expertise au
-            service de projets qui ont du sens, en contribuant à la réussite de produits durables et innovants.</p>
+            robustes et évolutives en appliquante les principes du Software Craftsmanship.</p>
+        <p class="mt-2">Je donne vie à vos idées, de la manière la plus simple, élégante et éco-conçue possible!</p>
     </section>
     <section class="mt-8">
         <h2>Compétences</h2>
