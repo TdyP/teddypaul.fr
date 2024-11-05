@@ -8,6 +8,8 @@ import router from './router';
 const app = createApp(App);
 
 const isSidePanelOpen = ref(false);
+
+// Check if in mobile view
 function toggleSidePanel() {
     isSidePanelOpen.value = !isSidePanelOpen.value;
 }

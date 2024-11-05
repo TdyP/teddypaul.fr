@@ -1,10 +1,12 @@
 <script lang="ts" setup>
 import {inject,onMounted,onUnmounted,ref} from 'vue';
 import {IS_SIDE_PANEL_OPEN_KEY} from '../constants';
-import {SidePanelOpenProvider} from '../types';
+import {SidePanelState} from '../types';
+import Menu from './Menu.vue';
+
 
 const sidePanel = ref<HTMLElement | null>(null);
-const sidePanelState = inject<SidePanelOpenProvider>(IS_SIDE_PANEL_OPEN_KEY);
+const sidePanelState = inject<SidePanelState>(IS_SIDE_PANEL_OPEN_KEY);
 
 if (!sidePanelState) {
     throw new Error('sidePanelState is not provided');
@@ -30,21 +32,6 @@ onUnmounted(() => document.removeEventListener('mousedown',handleClickOutside));
             </button>
         </div>
 
-        <nav class="mt-8">
-            <ul class="flex flex-col gap-y-4">
-                <li>
-                    <a href="#" class="text-black">À propos</a>
-                </li>
-                <li>
-                    <a href="#" class="text-black">Expériences</a>
-                </li>
-                <li>
-                    <a href="#" class="text-black">Formations</a>
-                </li>
-                <li>
-                    <a href="#" class="text-black">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <Menu />
     </aside>
 </template>
