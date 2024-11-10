@@ -1,4 +1,13 @@
 <script setup lang="ts">
+import TypingAnimation from '../components/TypingAnimation.vue';
+
+const prefix = 'Je suis';
+const typingTexts = [
+    'Expert Typescript',
+    'Expert React/Node',
+    'Artisan logiciel',
+]
+
 const skills = [
     {
         name: 'Typescript',
@@ -32,6 +41,7 @@ const skills = [
 </script>
 
 <template>
+    <TypingAnimation :prefix="prefix" :texts="typingTexts" />
     <section>
         <h2>Qui suis-je?</h2>
         <p>Développeur Web Full Stack avec 15 ans d'expérience, passionné par la création de solutions digitales
