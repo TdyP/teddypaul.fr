@@ -73,32 +73,8 @@ onMounted(() => {
 </script>
 
 <template>
-    <span class="typing-container">
-        <span class="typing-text">{{ prefix }} {{ currentText }}</span>
-        <span class="blinking-cursor">|</span>
+    <span class="inline-block">
+        <span class="block md:inline">{{ prefix }}</span> <span
+            class="border-r-4 sm:border-r-6 md:border-r-8 border-black animate-caret">{{ currentText }}</span>
     </span>
 </template>
-
-<style>
-.typing-container {
-    font-size: 24px;
-    font-family: monospace;
-    white-space: nowrap;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-}
-
-.blinking-cursor {
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 2px;
-    animation: blink 1s step-start infinite;
-}
-
-@keyframes blink {
-    50% {
-        opacity: 0;
-    }
-}
-</style>

@@ -24,7 +24,7 @@ onUnmounted(() => document.removeEventListener('mousedown',handleClickOutside));
 </script>
 
 <template>
-    <aside ref="sidePanel" class="bg-gray-100 p-4 w-full max-w-64 h-full m-0 absolute top-0 right-0 shadow-md">
+    <aside ref="sidePanel" class="bg-gray-100 p-4 w-1/3 h-screen m-0 fixed top-0 right-0 shadow-md z-50">
         <!-- close button -->
         <div class="flex justify-end">
             <button @click="toggleSidePanel">

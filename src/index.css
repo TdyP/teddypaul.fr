@@ -25,3 +25,11 @@
         @apply list-disc pl-4;
     }
 }
+
+@layer utilities {
+    @keyframes caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+}
