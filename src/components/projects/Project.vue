@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {Project} from '../../types';
+// @ts-expect-error
 import Markdown from 'vue3-markdown-it';
 import {Icon} from '@iconify/vue';
 
