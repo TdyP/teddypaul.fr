@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import {Experience} from '../../types';
 // @ts-expect-error
-import Markdown from 'vue3-markdown-it';
 import {Icon} from '@iconify/vue';
+import MarkdownText from '../MarkdownText.vue';
 
 defineProps<{
     experience: Experience
@@ -29,7 +29,6 @@ defineProps<{
                 {{ experience.location }}
             </div>
         </div>
-        <Markdown class="[&_p]:mb-4 text-justify [&_strong]:text-orange-600" :source="experience.description"
-            :breaks="true" :xhtmlOut="true" />
+        <MarkdownText :source="experience.description" />
     </div>
 </template>
