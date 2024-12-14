@@ -9,4 +9,9 @@ export const socialList = [
         link: 'https://github.com/TdyP',
         icon: 'fa6-brands:github',
     },
+    {
+        name: 'CV',
+        link: '/assets/cv_teddy_paul.pdf',
+        icon: 'fa6-solid:file-pdf',
+    },
 ];
