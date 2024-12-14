@@ -1,7 +1,7 @@
-import About from '../pages/About.vue';
-import Experiences from '../pages/Experiences.vue';
-import Home from '../pages/Home.vue';
-import Projects from '../pages/Projects.vue';
+import About from '../sections/About.vue';
+import Experiences from '../sections/Experiences.vue';
+import Home from '../sections/Home.vue';
+import Projects from '../sections/Projects.vue';
 
 export const routes = [
     {
