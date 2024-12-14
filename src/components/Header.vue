@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {inject,ref,onMounted,onUnmounted} from 'vue';
-import Title from './title/Title.vue';
+import PageTitle from './title/PageTitle.vue';
 import SidePanel from './SidePanel.vue';
 import Menu from './Menu.vue';
 import {IS_SIDE_PANEL_OPEN_KEY} from '../constants';
@@ -32,7 +32,7 @@ onUnmounted(() => window.removeEventListener('resize',updateIsMobile));
 <template>
     <header
         class="p-6 md:px-12 w-full mx-auto flex flex-row justify-between items-center gap-x-4 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 h-28">
-        <Title class="cursor-pointer" @click="goToHome" />
+        <PageTitle class="cursor-pointer" @click="goToHome" />
         <button v-if="isMobile" @click="toggleSidePanel">
             <Icon icon="fa6-solid:bars" class="w-6 h-6" />
         </button>
