@@ -4,6 +4,7 @@ import Home from './pages/Home.vue';
 import About from './pages/About.vue';
 import Experiences from './pages/Experiences.vue';
 import Projects from './pages/Projects.vue';
+import BackToTop from './components/BackToTop.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import Projects from './pages/Projects.vue';
     <About />
     <Projects class="bg-white" />
     <Experiences class="bg-orange-100" />
+    <BackToTop />
   </main>
 </template>
