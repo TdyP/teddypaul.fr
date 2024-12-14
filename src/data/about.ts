@@ -1,9 +1,10 @@
 export const about = `
-**Développeur web full stack depuis 15 ans**, je suis passionné par la création de produits digitaux qui allient **utilité, simplicité et efficacité**. Inspiré par les principes du **_Software Craftsmanship_**, je place le respect du code et des bonnes pratiques au cœur de mon travail. Chaque ligne de code et chaque élément d'architecture se doivent d'être **propres, élégants et maintenables**, garantissant ainsi des **solutions durables et évolutives**.
-
-Un produit réussi est avant tout **utile, utilisable et utilisé**. Je veille à optimiser l’expérience utilisateur, la performance et l’**éco-conception** pour garantir des **applications performantes et responsables**.
-
-Je mets un point d'honneur à comprendre **vos besoins**, à donner vie à vos idées et à les transformer en **solutions concrètes et adaptées**.
+Je suis un **développeur web full-stack depuis 15 ans**. Je vous propose mes services en **freelance** pour tous vos projets d'**applications web**:
+- Définition de l'**architecture** et du **data-model** de l'application
+- Front: **React**, **Vue.js** ou tout autre framework de votre choix
+- Back:  **Node.js**, Express, base de données SQL ou **NoSQL**, API REST ou **GraphQL**
+- Tests: **définition et mise en place de** la stratégie de tests (unitaires, intégration, E2E)
+- Mise en place de la **CI/CD** (GitLab, GitHub Actions)
+- Craft: sensibilisation aux pratiques du **craft** et stratégie de **mise en place** dans vos équipes
+- Éco-conception: sensibilisation à l'**éco-conception** et **optimisation des performances** de vos applications
 `;
-
-export const quote = `Ensemble, construisons des projets qui ont du sens.`;
