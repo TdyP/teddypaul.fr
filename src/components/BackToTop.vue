@@ -5,6 +5,9 @@ import {Icon} from '@iconify/vue';
 const showButton = ref(false);
 
 const onClick = () => {
+    const url = new URL(window.location.href);
+    url.hash = '';
+    window.history.replaceState(null,'',url);
     window.scrollTo({top: 0,behavior: 'smooth'});
 };
 
