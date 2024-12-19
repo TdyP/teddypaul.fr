@@ -21,6 +21,9 @@ jobs:
             - name: Build
               run: npm run build
 
+            - name: Inject secrets
+              run: sed -i 's/__UMAMI_WEBSITE_ID__/${{ secrets.UMAMI_WEBSITE_ID }}/g' dist/index.html
+
             - name: Deploy via SSH
               uses: appleboy/scp-action@v0.1.4
               with:
