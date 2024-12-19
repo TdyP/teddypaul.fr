@@ -16,8 +16,8 @@ const menuItems = routes.filter(route => route.path !== '/');
             <ul class="flex flex-col gap-2 md:flex-row md:gap-2 list-none pl-0">
                 <li v-for="item in menuItems" :key="item.name">
                     <router-link :to="item.path" @click="sidePanelState?.toggleSidePanel"
-                        class="py-1 md:px-4 md:py-2 border-black hover:border-b-2">{{ item.name
-                        }}</router-link>
+                        class="py-1 md:px-4 md:py-2 border-black hover:border-b-2">{{
+                            $t(`sections.${item.name}`)}}</router-link>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,26 @@
+{
+    "header": {
+        "subtitle": "Freelance Developer"
+    },
+    "sections": {
+        "about": "About",
+        "projects": "Projects",
+        "experiences": "Experiences"
+    },
+    "home": {
+        "tagline": "I turn your ideas into quality products.",
+        "typingTexts": {
+            "prefix": "I am",
+            "expertTypescript": "TypeScript Expert",
+            "expertNodeReact": "Node and React Expert",
+            "softwareCraftsman": "Software Craftsman."
+        }
+    },
+    "about": {
+        "title": "Hi, I'm Teddy"
+    },
+    "footer": {
+        "title": "Teddy Paul - Freelance Developer",
+        "credits": "Website made with VueJS and TailwindCSS. Source code available on {githubLink}."
+    }
+}

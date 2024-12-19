@@ -1,7 +1,22 @@
 <script lang="ts" setup>
+import {useI18n} from 'vue-i18n';
 import Experience from '../components/experiences/Experience.vue';
 import PageSection from '../components/PageSection.vue';
-import {experiencesList} from '../data/experiences';
+import {type Experience as ExperienceType} from '../types';
+import {ref,watchEffect} from 'vue';
+
+const {locale} = useI18n();
+const experiencesList = ref<ExperienceType[]>()
+const loadContent = async () => {
+    const module = await import(`../data/${locale.value}/experiences.ts`);
+    experiencesList.value = module.experiencesList;
+}
+
+watchEffect(() => {
+    loadContent();
+});
+
+
 </script>
 
 <template>

@@ -1,7 +1,21 @@
 <script lang="ts" setup>
+import {useI18n} from 'vue-i18n';
 import PageSection from '../components/PageSection.vue';
 import Project from '../components/projects/Project.vue';
-import {projectsList} from '../data/projects';
+import {type Project as ProjectType} from '../types';
+import {ref,watchEffect} from 'vue';
+
+const {locale} = useI18n();
+const projectsList = ref<ProjectType[]>()
+const loadContent = async () => {
+    const module = await import(`../data/${locale.value}/projects.ts`);
+    projectsList.value = module.projectsList;
+}
+
+watchEffect(() => {
+    loadContent();
+});
+
 </script>
 
 <template>

@@ -1,0 +1,26 @@
+{
+    "header": {
+        "subtitle": "Développeur freelance"
+    },
+    "sections": {
+        "about": "À propos",
+        "projects": "Projets",
+        "experiences": "Expériences"
+    },
+    "home": {
+        "tagline": "Je transforme vos idées en produits de qualité.",
+        "typingTexts": {
+            "prefix": "Je suis",
+            "expertTypescript": "Expert TypeScript",
+            "expertNodeReact": "Expert Node et React",
+            "softwareCraftsman": "Artisan logiciel."
+        }
+    },
+    "about": {
+        "title": "Hello, moi c'est Teddy"
+    },
+    "footer": {
+        "title": "Teddy Paul - Développeur freelance",
+        "credits": "Site web réalisé avec VueJS et TailwindCSS. Code source disponible sur {githubLink}."
+    }
+}

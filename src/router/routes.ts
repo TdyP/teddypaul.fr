@@ -6,22 +6,22 @@ import Projects from '../sections/Projects.vue';
 export const routes = [
     {
         path: '/',
-        name: 'Home',
+        name: 'home',
         component: Home,
     },
     {
         path: '/#about',
-        name: 'À propos',
+        name: 'about',
         component: About,
     },
     {
         path: '/#projects',
-        name: 'Projets',
+        name: 'projects',
         component: Projects,
     },
     {
         path: '/#experiences',
-        name: 'Expériences',
+        name: 'experiences',
         component: Experiences,
     },
     // {
