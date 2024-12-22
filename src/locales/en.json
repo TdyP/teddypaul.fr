@@ -17,7 +17,8 @@
         }
     },
     "about": {
-        "title": "Hi, I'm Teddy"
+        "title": "Hi, I'm Teddy",
+        "contactMe": "Contactez-moi"
     },
     "footer": {
         "title": "Teddy Paul - Freelance Developer",

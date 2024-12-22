@@ -2,6 +2,7 @@
 import {useI18n} from 'vue-i18n';
 import SocialLinks from './SocialLinks.vue';
 import {computed} from 'vue';
+import {EMAIL} from '../constants';
 
 const {t} = useI18n();
 
@@ -14,6 +15,7 @@ const credits = computed(() => t('footer.credits',{
     <footer class="bg-orange-400 text-center p-4">
         <SocialLinks class="justify-center inline" />
         <p>{{ $t('footer.title') }}</p>
+        <p><a :href="`mailto:${EMAIL}`">{{ EMAIL }}</a></p>
         <p class="mt-[1em]" v-html="credits" />
     </footer>
 </template>

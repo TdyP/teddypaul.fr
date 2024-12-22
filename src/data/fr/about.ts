@@ -1,10 +1,14 @@
 export const about = `
-Je suis un **développeur web full-stack depuis 15 ans**. Je vous propose mes services en **freelance** pour tous vos projets d'**applications web**:
-- Définition de l'**architecture** et du **data-model** de l'application
-- Front: **React**, **Vue.js** ou tout autre framework de votre choix
-- Back:  **Node.js**, Express, base de données SQL ou **NoSQL**, API REST ou **GraphQL**
-- Tests: **définition et mise en place de** la stratégie de tests (unitaires, intégration, E2E)
-- Mise en place de la **CI/CD** (GitLab, GitHub Actions)
-- Craft: sensibilisation aux pratiques du **craft** et stratégie de **mise en place** dans vos équipes
-- Éco-conception: sensibilisation à l'**éco-conception** et **optimisation des performances** de vos applications
+**Développeur web full-stack avec 15 ans d'expérience**, je mets mes compétences à votre service en tant que **freelance** pour vos projets d'applications web. Mon expertise couvre toutes les étapes de la conception et du développement :
+
+- **Architecture et data modeling** : conception robuste et adaptée à vos besoins.
+- **Front-end** : développement avec **React**, **Vue.js** ou le framework de votre choix.
+- **Back-end** : création de services performants avec **Node.js**, Express, SQL ou **NoSQL**, API REST ou **GraphQL**.
+- **Qualité** : définition et mise en œuvre de stratégies de tests (unitaires, intégration, E2E).
+- **CI/CD** : automatisation des workflows avec **GitLab** ou **GitHub Actions**.
+- **Craftsmanship** : accompagnement vers des pratiques de **code durable** et de haute qualité au sein de vos équipes.
+- **Éco-conception** : optimisation des performances et réduction de l'impact environnemental de vos applications
+
+Je suis basé à **Grenoble** et disponible pour des missions locales ou en **télétravail dans toute la France**.
+Si vous souhaitez en savoir plus, contactez-moi et discutons de vos besoins. 🚀
 `;

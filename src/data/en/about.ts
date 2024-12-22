@@ -1,10 +1,14 @@
 export const about = `
-I am a **full-stack web developer with 15 years of experience**. I offer my services as a **freelancer** for all your **web application** projects:
+**Full-stack web developer with 15 years of experience**, I offer my skills as a **freelancer** for your web application projects. My expertise covers all stages of design and development:
 
-- Definition of the application's **architecture** and **data model**
-- Front-end: **React**, **Vue.js**, or any other framework of your choice
-- Back-end: **Node.js**, Express, SQL or **NoSQL** databases, REST or **GraphQL** APIs
-- Tests: **Definition and implementation** of the testing strategy (unit, integration, E2E)
-- **CI/CD** setup (GitLab, GitHub Actions)
-- Craft: Promoting **craft practices** and strategy for **implementation** in your teams
-- Eco-design: Raising awareness of **eco-design** and **performance optimization** of your applications`;
+- **Architecture and data modeling**: robust design tailored to your needs.
+- **Front-end**: development with **React**, **Vue.js**, or the framework of your choice.
+- **Back-end**: creation of efficient services with **Node.js**, Express, SQL or **NoSQL**, REST API or **GraphQL**.
+- **Quality**: definition and implementation of testing strategies (unit, integration, E2E).
+- **CI/CD**: workflow automation with **GitLab** or **GitHub Actions**.
+- **Craftsmanship**: guidance towards **sustainable code** practices and high quality within your teams.
+- **Eco-design**: performance optimization and reduction of the environmental impact of your applications.
+
+I am based in **Grenoble** and available for local assignments or **remote work throughout France**.
+If you want to know more, contact me and let's discuss your needs. 🚀
+`;
