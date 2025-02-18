@@ -1,14 +1,19 @@
 export const about = `
-**Développeur web full-stack avec 15 ans d'expérience**, je mets mes compétences à votre service en tant que **freelance** pour vos projets d'applications web. Mon expertise couvre toutes les étapes de la conception et du développement :
+🌿 J’aide les **entreprises à impact** à créer des produits efficaces, durables et éco-responsables.
 
-- **Architecture et data modeling** : conception robuste et adaptée à vos besoins.
-- **Front-end** : développement avec **React**, **Vue.js** ou le framework de votre choix.
-- **Back-end** : création de services performants avec **Node.js**, Express, SQL ou **NoSQL**, API REST ou **GraphQL**.
-- **Qualité** : définition et mise en œuvre de stratégies de tests (unitaires, intégration, E2E).
-- **CI/CD** : automatisation des workflows avec **GitLab** ou **GitHub Actions**.
-- **Craftsmanship** : accompagnement vers des pratiques de **code durable** et de haute qualité au sein de vos équipes.
-- **Éco-conception** : optimisation des performances et réduction de l'impact environnemental de vos applications
+Avec une solide expertise en conception produit et développement, j’accompagne vos projets selon vos besoins :
+
+🚀 **Renforcement d’équipe**
+Je m’intègre rapidement à vos projets, vos équipes et vos rituels pour accélérer vos développements et aller plus vite et plus loin.
+
+🎯 **Intervention ciblée**
+Besoin d’un coup de pouce technique ? J’interviens sur des missions spécifiques : optimisation, performance, migration, CI/CD... avec un fort accent sur l’efficacité et les résultats.
+
+💡 **Tech Lead**
+Je prends la direction technique de vos projets : pilotage de l’équipe, garantie de la qualité du code et alignement constant avec votre vision produit.
+
+🔧 Mes outils de prédilection : **TypeScript, Node, React, GraphQL**... Mais avant tout, j’adapte mes choix technologiques à **vos besoins** : les outils sont **au service de votre projet**.
 
 Je suis basé à **Grenoble** et disponible pour des missions locales ou en **télétravail dans toute la France**.
-Si vous souhaitez en savoir plus, contactez-moi et discutons de vos besoins. 🚀
+Prêt·e à donner un coup d’accélérateur à vos projets ? Discutons-en ! 🚀
 `;
